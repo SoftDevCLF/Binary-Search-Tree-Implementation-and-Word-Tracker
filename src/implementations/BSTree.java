@@ -15,6 +15,7 @@ import utilities.Iterator;
  */
 public class BSTree<E extends Comparable<? super E>> implements BSTreeADT<E>, Serializable
 {
+	// Serial version UID for serialization
 	private static final long serialVersionUID = 1L;
 	
 	/** Root node of the BST */
