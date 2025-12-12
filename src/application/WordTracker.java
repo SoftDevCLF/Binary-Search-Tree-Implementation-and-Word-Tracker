@@ -8,6 +8,7 @@ import java.io.ObjectOutputStream;
 import java.io.IOException;
 
 import implementations.BSTree;
+import application.Word;
 
 public class WordTracker 
 {
