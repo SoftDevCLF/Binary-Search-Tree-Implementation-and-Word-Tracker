@@ -1,5 +1,7 @@
 package implementations;
 
+import java.io.Serializable;
+
 /**
  * Represents a node in a Binary Search Tree (BST).
  * Each node stores an element and references to its left and right children.
@@ -8,8 +10,11 @@ package implementations;
  * 
  */
 
-public class BSTreeNode<E>
+public class BSTreeNode<E> implements Serializable
 {
+	// Required UID for serialization compatibility
+	private static final long serialVersionUID = 1L;
+	
 	/** The element stored in this node */
 	private E element;
 	
