@@ -3,6 +3,18 @@ package application;
 import java.io.Serializable;
 import java.util.*;
 
+/**
+ * Implementation of a Word class used with the Binary Search tree.This class 
+ * supports organizing and managing the words in the text files efficiently.
+ * and iterating over the tree in in-order, pre-order, and post-order traversals.
+ * 
+ * It implements a Comparable to allow alphabetical ordering of words and Serializable 
+ * for object serialization.
+ *
+ * @author temib
+ * @version 1.0
+ */
+
 public class Word implements Comparable<Word>, Serializable {
 	
 	private static final long serialVersionUID = 1L;
