@@ -14,6 +14,17 @@ import application.Word;
 import implementations.BSTree;
 import implementations.BSTreeNode;
 
+/**
+ * Implementation of a WordTracker class to manage a collection of Word objects,
+ * tracking their occurrences across multiple files. This class provides methods to add 
+ * new words and update their occurrences, retrieve words alphabetically, and query 
+ * which files and line numbers the word appears in.It is used with with the binary search tree.
+ * It implements a Comparable to allow alphabetical ordering of words and Serializable 
+ * for object serialization.
+ *
+ * @author temib, annay, dominiquel
+ * @version 1.0
+ */
 
 public class WordTracker 
 {
